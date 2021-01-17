@@ -130,7 +130,7 @@ int main()
 			
 
 			HANDLE start_CheckForDbger = CreateThread(	//	At 30 we launch a thread that will search the process for a debugger.
-														//	This is a continuous search. Refer: checkIfDbger()
+									//	This is a continuous search. Refer: checkIfDbger()
 				NULL,
 				0,
 				checkIfDbger,
