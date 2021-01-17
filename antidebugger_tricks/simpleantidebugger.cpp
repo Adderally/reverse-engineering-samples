@@ -86,7 +86,7 @@ startedUnderDbger(void) {
 	BOOL found = FALSE;
 
 	_asm	//	Checking the PEB for debug flags
-			//	Another way of checking of the application was ran with a debugger!
+		//	Another way of checking of the application was ran with a debugger!
 
 	{
 		xor eax, eax;			
